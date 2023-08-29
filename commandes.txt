@@ -1,0 +1,6 @@
+Créer un projet Electron+Vue avec Vite
+    npm create electron-vite
+
+Exécuter en mode développement
+    npm i
+    npm run dev
