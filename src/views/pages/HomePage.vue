@@ -13,3 +13,4 @@ import DefaultLayout from '../layouts/DefaultLayout.vue'
 <style scoped>
 
 </style>
+

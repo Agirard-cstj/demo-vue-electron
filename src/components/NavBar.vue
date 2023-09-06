@@ -8,7 +8,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        </ul>   
+            <li class="nav-item">
+              <router-link class="nav-link" :to="{name:'home'}">Accueil</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" :to="{name:'planets'}">Planète</router-link>
+            </li>
+          </ul>   
         </div>
       </div>
     </nav>
@@ -22,3 +28,4 @@
 <style scoped>
 
 </style>
+
